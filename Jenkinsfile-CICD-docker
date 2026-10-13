@@ -4,11 +4,11 @@ pipeline {
   environment {
     // === 사용자 수정 영역 ===
     GIT_URL                = 'https://github.com/MunJinYeong/myfirst-api-server.git'
-    GIT_BRANCH             = 'master'            // 또는 main
+    GIT_BRANCH             = 'main'            // 또는 main
     GIT_ID                 = 'skala-github-id'   // GitHub PAT credential ID
     IMAGE_NAME             = 'sk320-webserver'
     // =======================
-    IMAGE_TAG              = '1.0'
+    IMAGE_TAG              = '2.0.build'
     IMAGE_REGISTRY_URL     = 'skala-registry.skala-ai.com'
     IMAGE_REGISTRY_PROJECT = 'class-10'
 
